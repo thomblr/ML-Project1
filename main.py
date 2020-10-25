@@ -60,7 +60,7 @@ for i in np.arange(0.01, 1, 0.01):
     r2_array.append(result_r2)
 
 plt.plot(np.arange(0.01, 1, 0.01), r2_array)
-plt.xlabel("Value of Alpha in Lasse Model")
+plt.xlabel("Value of Alpha in Lasso Model")
 plt.ylabel("Value of the R2")
 plt.title("Comparison of Alpha and R2 in a Lasso Model")
 plt.show()
